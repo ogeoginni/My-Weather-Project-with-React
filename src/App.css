@@ -3,3 +3,64 @@
   margin: 0 auto;
   text-align: center;
 }
+h1 {
+  font-size: 30px;
+  line-height: 48px;
+  font-weight: 100;
+  color: #6d42c7;
+}
+
+.current-city {
+  font-size: 36px;
+  line-height: 14px;
+  font-weight: 650;
+  text-transform: uppercase;
+  color: #6d42c7;
+}
+
+.temp-description {
+  font-weight: bold;
+  color: #6d42c7;
+}
+
+.weather-temperature img {
+  margin-right: 5px;
+  height: 74px;
+  width: 74px;
+}
+
+ul {
+  position: relative;
+  right: 0%;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 320;
+  line-height: 39px;
+  color: #6d42c7;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+}
+
+#city-input {
+  width: 45%;
+  border-radius: 30px;
+  padding: 5px;
+  height: 50px;
+  background: #f5b4b4;
+  border: 2px solid #662eed;
+  text-align: center;
+  text-shadow: none;
+}
+
+.footer {
+  background-color: #f5b4b4;
+  font-size: 18px;
+  color: #6d42c7;
+}
